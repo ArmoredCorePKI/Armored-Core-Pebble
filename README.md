@@ -17,6 +17,7 @@
 ## Deployment
 
 > make sure that Go environment has been installed.
+
 - `cd project_dir`
 - `go install ./cmd/pebble`
 - `~/go/bin/pebble -config ./test/config/pebble-config.json -treeid=SOME_TREE_ID`
@@ -29,20 +30,22 @@ Then the Pebble service with Armored Core should be running.
 
 - Note that such simulation is only to complete the prototype development smoothly in a Golang project. It cannot be seen as the actual way of using PUF in practice.
 
-
 ## How to run the system?
 
 See in [How-to-run](https://github.com/ArmoredCorePKI/Armored-Core/blob/main/README.md) 
-
 
 ## Remarks
 
 - These code only demonstrate the functions of Pebble CA with Armored Core designed in the paper. They may be unstable and inappropiate for production tests.
 
 - TODO:
+  
   - Code cleanup 
   - Implementation Optimization
 
 - How to measure the elapsed time?
+  
   - Use the timing function : `Meas_Start_g` and `Meas_End_g` in the pcert package.
 
+- PUF6 Figure
+  - ![](./PUF6Figure.jpg)
