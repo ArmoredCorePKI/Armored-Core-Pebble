@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option go_package = ".;trclient";
+
+message PUFEntry {
+  string caname = 1;
+  string manu = 2;
+  bytes ts = 3;
+  bytes pufid = 4;
+  bytes comrp = 5;
+  bytes tag = 6;
+}
