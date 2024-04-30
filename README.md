@@ -32,7 +32,7 @@ Then the Pebble service with Armored Core should be running.
 
 ## How to run the system?
 
-See in [How-to-run](XXXXX)
+See in [How-to-run](https://github.com/ArmoredCorePKI/Armored-Core/blob/main/README.md) 
 
 
 ## Remarks
